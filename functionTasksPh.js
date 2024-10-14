@@ -1,101 +1,106 @@
 // Task-1
 // Take four parameters. Multiply the four numbers and then return the result
 
-/* function para4(num1,num2,num3,num4){
-
-    if(typeof num1 !== 'number' ||typeof num2 !== 'number' ||typeof num3 !== 'number' ||typeof num4 !== 'number'){
-        return 'Enter Valid Number';
+/* function multiply(a,b,c,d){
+    if(typeof a !== 'number' || typeof b !== 'number' || typeof c !== 'number' || typeof d !== 'number'){
+        return `Enter Only integer Numbers`
     }
-    return num1 * num2 * num3 * num4;
+    return a*b*c*d;
+}
+console.log(multiply(2,3,2,3)) */
+
+
+/* Task-2
+Take a number if the number is odd multiply it by 2 and return the result. If the number is even divide it by two and return the result.
+ */
+
+/* function mulDiv(number){
+    if(number % 2 === 0){
+       return number / 2;
+    }
+    else{
+        return number * 2;
+    }
 }
 
-console.log(para4(2,3,4,5));
-console.log(para4(2,1,'2',1)); */
-/* 
-Task-2
-Take a number if the number is odd multiply it by 2 and return the result. If the number is even divide it by two and return the result. */
+console.log(mulDiv(10))
+ */
 
-/* function oddEvenCheck(num){
-    if(num % 2 !== 0){
-        return num * 2;
+/* Task-3
+Write a function called make_avg() which will take an array of integers and the size of that array and return the average of those values.
+ */
+/* function make_avg(arrays, size){
+    if(!Array.isArray(arrays)){
+        return `Please Only Put Arrays`;
     }
-    return num / 2;
-}
 
-console.log(oddEvenCheck(4)); */
-
-/* 
-Task-3
-Write a function called make_avg() which will take an array of integers and the size of that array and return the average of those values. */
-
-/* function make_avg(arry, size){
-    if(!Array.isArray(arry)){
-        return 'Please send an array';
-    }
-    
     let sum = 0;
-    for(let i = 0; i < size; i++){
-        sum += arry[i];
+    for(const array of arrays){
+        sum += array;
     }
-
     return sum / size;
 
-
-
 }
 
-let array = [2,54,11,2,3,4];
-let size = array.length;
-
-console.log(parseFloat(make_avg(array, size).toFixed(2))); */
-
-/* 
-Task-4
-Write a function called count_zero() which will take a binary string (Binary string is a string which is consist of only 0 and 1) as parameter and count how many 0’s are there in that string. */
+let arrays = [1,2,3,4,5,6];
+let size = arrays.length;
+console.log(make_avg(arrays, size)) */
 
 
-function count_zero(num){
-    let count1 = 0
-    let count2 = 0;
+/* Task-4
+Write a function called count_zero() which will take a binary string (Binary string is a string which is consist of only 0 and 1) as parameter and count how many 0’s are there in that string. */ 
 
 
-    for(let i = 0; i < num.length; i++){
-        const element = num[i];
-        if(num[i] == 0){
-            count1++;
+/* function count_zero(binary){
+    let count0 = 0;
+    let count1 = 0;
+
+    for (const bin of binary) {
+
+        if(bin.includes('0')){
+            count0++;
         }
-        else if(num[i] == 1){
-            count2++;    
-        } 
+        else count1++;
+        
     }
-    return `Here the binary digit zero are ${count1} and Binary digit 1 are ${count2}`;
-}   
-
-const binaryNum = "0000011111";
-console.log(count_zero(binaryNum));
-
-
-
-
-
-
-
-
-/* function count_zero(number){
-    if(typeof number !== 'string'){
-        return 'Enter an string';
+    return {
+        count0,
+        count1
     }
-
-    let count = 0;
-
-    for(let num of number){
-      if(num === '0'){
-        count++;
-      }
-    }
-    return count;
-   
 }
 
-let a = "000000000011111";
-console.log(count_zero(a)); */
+console.log(count_zero('000000000011111')); */
+
+/* Task-5
+Write a function called odd_even() which takes an integer value and tells whether this value is even or odd. If even return Even. If odd return Odd
+ */
+
+function  odd_even(number){
+    if(number % 2 === 0){
+        return `Even`
+    }
+    return `Odd`
+}
+
+console.log(odd_even(10));
+console.log(odd_even(5));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
