@@ -178,36 +178,6 @@ console.log(PandaCost(1,-1,1));
 // 3rd problem
 
 
-function picnicBudget(participants){
-    let first100Cost = 0;
-    let second101To200Cost = 0;
-    let remainingCost = 0;
-    let total = 0;
-
-    if(typeof participants !== 'number' || participants < 0 ){
-        return "Participants should be a valid integer number"
-    }
-    
-    if(participants <= 100){
-        first100Cost = participants * 5000;
-        return first100Cost;
-    }
-    else if(participants <= 200){
-        first100Cost = 100 * 5000;
-        second101To200Cost = (participants - 100) * 4000;
-        return  first100Cost + second101To200Cost;
-
-    }
-    else{
-        first100Cost = 100 * 5000;
-        second101To200Cost = 100 * 4000;
-        remainingCost = (participants - 200)  * 3000;
-        return remainingCost + first100Cost + second101To200Cost;
-    }
-
-}
-
-console.log(picnicBudget(202));
 
 
 

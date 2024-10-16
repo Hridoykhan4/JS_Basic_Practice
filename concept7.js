@@ -118,52 +118,39 @@ console.log(rickshawBhara(234)); */
 
 // Job tasks
 
-const person1 = {
-    name: "Abul Kashem",
-    honors: 40,
-    hsc: 30,
-    isFFfamily: true
-};
 
-const person2 = {
-    name: "mokber mia",
-    honors: 45,
-    hsc: 32,
-    isFFfamily: false
-};
+// function jobSelection(info){
+//         if(typeof info !== 'object'){
+//             return "Invalid Object"
+//         }
+//         let total_marks = info.honors + info.hsc;
 
-function jobSelection(info){
-        if(typeof info !== 'object'){
-            return "Invalid Object"
-        }
-        let total_marks = info.honors + info.hsc;
-
-        if(info.isFFfamily === true){
-            total_marks = total_marks + (total_marks * 20 / 100);
-        }
+//         if(info.isFFfamily === true){
+//             total_marks = total_marks + (total_marks * 20 / 100);
+//         }
 
         
-        console.log(total_marks)
+//         console.log(total_marks)
 
-        if(info.isFFfamily && total_marks >= 80){
-            return "Aho Vatiza aho"
-        }
-        else if(info.isFFfamily && total_marks < 80){
-            return "Bad Luck Bhatiza, Better luck next time"
-        }
-        else if(!info.isFFfamily && total_marks >= 80){
-            return "You got the job"
-        }
-        else if(!info.isFFfamily && total_marks < 80){
-            return "Rajakar Rajakar";
-        }
+//         if(info.isFFfamily && total_marks >= 80){
+//             return "Aho Vatiza aho"
+//         }
+//         else if(info.isFFfamily && total_marks < 80){
+//             return "Bad Luck Bhatiza, Better luck next time"
+//         }
+//         else if(!info.isFFfamily && total_marks >= 80){
+//             return "You got the job"
+//         }
+//         else if(!info.isFFfamily && total_marks < 80){
+//             return "Rajakar Rajakar";
+//         }
 
  
-        /* if(total_marks >= 80){
-            return 'You got the job';
-        }
-        return "sorry" */
-}
+//         if(total_marks >= 80){
+//             return 'You got the job';
+//         }
+//         return "sorry"
+// }
 
-/* console.log(jobSelection(person1));
-console.log(jobSelection(person2)); */
+console.log(jobSelection(person1));
+console.log(jobSelection(person2));

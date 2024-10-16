@@ -75,7 +75,7 @@ console.log(count_zero('000000000011111')); */
 Write a function called odd_even() which takes an integer value and tells whether this value is even or odd. If even return Even. If odd return Odd
  */
 
-function  odd_even(number){
+/* function  odd_even(number){
     if(number % 2 === 0){
         return `Even`
     }
@@ -85,7 +85,7 @@ function  odd_even(number){
 console.log(odd_even(10));
 console.log(odd_even(5));
 
-
+ */
 
 
 

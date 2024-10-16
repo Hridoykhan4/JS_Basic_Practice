@@ -1,3 +1,17 @@
+/* const min = Math.min(45, 1,33,11,344,1);
+console.log(min)
+const max = Math.max(45, 1,33,11,344,1);
+console.log(max) */
+
+// console.log(Math.PI)
+// console.log(Math.abs(5-10));
+// console.log(Math.round(1.8))
+// console.log(Math.ceil(1.1))
+// console.log(Math.floor(1.1))
+
+console.log(Math.ceil(Math.random()*10))
+
+
 // let x=22.52;
 
 // let result = Math.round(x);
