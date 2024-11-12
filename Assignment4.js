@@ -1,4 +1,3 @@
-
 /* Problem-01 : Help The Zoo Manager
 ⚠️ Function Name Must be calculateMoney( )
 
@@ -22,29 +21,26 @@ Output :
 Challenge 📢 : বাকে র ভাই যদি ইনপুট হি সে বে নে গে টি ভ সংখ্যা দে য় তাহলে ত োমাকে একটা error ম্যাসে জ
 আউটপুট হি সে বে রি টার্ন করে দি তে হবে । */
 
-/* function calculateMoney(ticketSale){
-    if(ticketSale < 0){
-        return 'Please enter valid quantity'
-    }
-    const singleTicketPrice = 120;
-    const securitySalary = 500;
-    const lunchCost = 50;
-    const staff = 8;
-    const staffLunch = staff * lunchCost;
-    const totalCost = securitySalary + staffLunch;
+/* function calculateMoney(ticketSale) {
+  if (ticketSale < 0) {
+    return "Please enter valid quantity";
+  }
+  const singleTicketPrice = 120;
+  const securitySalary = 500;
+  const lunchCost = 50;
+  const staff = 8;
+  const staffLunch = staff * lunchCost;
+  const totalCost = securitySalary + staffLunch;
 
-    const totalIncome = ticketSale * singleTicketPrice;
+  const totalIncome = ticketSale * singleTicketPrice;
 
-    const actualIncome = totalIncome - totalCost;
+  const actualIncome = totalIncome - totalCost;
 
-    return `Total Profit ${actualIncome} Taka`
+  return `Total Profit ${actualIncome} Taka`;
 }
 
-
-console.log(calculateMoney(1055)); */
-
-
-
+console.log(calculateMoney(1055));
+ */
 /* Problem-02: Good Name , Bad Name
 ⚠️ Function Name Must be checkName()
 
@@ -67,31 +63,25 @@ Name
 
 Challenge 📢 : ইনপুট হি সে বে স্ট্রি ং টাইপে র বাইরে অন্য যে ক োন কি ছুদি লে এটা শুধুমাত্র “invalid” রি টার্ন
 করবে । */
-/* function checkName(names){
-    if(typeof names !== 'string'){
-        return 'invalid'
-    }
+/* function checkName(names) {
+  if (typeof names !== "string") {
+    return "invalid";
+  }
+  const lastCharacter = names[names.length - 1].toLowerCase();
 
-    const lastCharacter = names[names.length - 1].toLowerCase()
-    
-    const weirdLasts = 'ayieouw';
-    if(weirdLasts.includes(lastCharacter)){
-        return 'Good Name';
-    }
-    else{
-        return 'Bad Name';
-    }
-    
+  const weirdLasts = "aeieouw";
 
+  if (weirdLasts.includes(lastCharacter)) {
+    return "Good Name";
+  } else {
+    return "Bad Name";
+  }
 }
 
-console.log(checkName('salman'));
-console.log(checkName('RAFEE'));
-console.log(checkName('jhankar'));
-console.log(checkName(1111)) */
-
-
-
+console.log(checkName("salman"));
+console.log(checkName("RAFEE"));
+console.log(checkName("jhankar"));
+console.log(checkName(1111)); */
 
 /* 
 Problem 03 : Virus in my Array
@@ -138,23 +128,23 @@ console.log(deleteInvalids([1,2,-3]));
 console.log(deleteInvalids(["1" , {num:2} , NaN ]));
  */
 
-
-/* function password(info){
-
-    
-    let count = String(info.birthYear);
-    const split = count.split('').length;
-      if(!info.name || !info.birthYear || !info.siteName || split !== 4){
-            return 'Invalid'
-       }
-    return `${info.siteName.charAt(0).toUpperCase() + info.siteName.slice(1)}#${info.name}@${info.birthYear}`   
-
+/* function password(info) {
+  let count = String(info.birthYear);
+  const split = count.split("").length;
+  if (!info.name || !info.birthYear || !info.siteName || split !== 4) {
+    return "Invalid";
+  }
+  return `${info.siteName.charAt(0).toUpperCase() + info.siteName.slice(1)}#${
+    info.name
+  }@${info.birthYear}`;
 }
 
-console.log(password({ name: "kolimuddin" , birthYear: 1991 , siteName: "google" }))
-console.log(password({ name: "rahat", birthYear: 2002, siteName: "Facebook" }))
-console.log(password({ name: "toky", birthYear: 200, siteName: "Facebook" })) */
-
+console.log(
+  password({ name: "kolimuddin", birthYear: 1991, siteName: "google" })
+);
+console.log(password({ name: "rahat", birthYear: 2002, siteName: "Facebook" }));
+console.log(password({ name: "toky", birthYear: 200, siteName: "Facebook" }));
+ */
 /* Problem 04 : Make A Great Password
 ⚠️ Function Name Must be password()
 
@@ -182,7 +172,6 @@ Google#kolimuddin@1999
 Challenge 📢: যদি ক োন একটা প্র োপার্টি মি সি ং থাকে অথবা যদি birthYear 4 ডি জি টে র না হয় ফাংশন টি
 রি টার্ন করবে একটি স্ট্রি ং যার ভ্যালুহবে invalid */
 
-
 /* function monthlySavings(arr , livingCost){
     if(!Array.isArray(arr) || typeof livingCost !== 'number'){
         return 'invalid input'
@@ -194,7 +183,7 @@ Challenge 📢: যদি ক োন একটা প্র োপার্ট�
     for(const money of arr){
         income += money;
     }
-
+ zzzzg GH
     for (const elements of arr) {
         if(elements >= 3000){
            tax +=  ((elements * 20) / 100);            
@@ -207,8 +196,6 @@ Challenge 📢: যদি ক োন একটা প্র োপার্ট�
         return 'Earn More';
     }
     return finalSavings;
-
-
 }
 
 console.log(monthlySavings([1000,2000,3000],5400))
