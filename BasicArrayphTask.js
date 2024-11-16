@@ -22,7 +22,6 @@ spots.push('Tanguar Hawr','Kaptai');
 spots.pop();
 console.log(spots) */
 
-
 // 3. Checking Array Membership with ‘includes’
 // Instructions:
 
@@ -41,7 +40,6 @@ else{
     console.log('Not Present');
 }
  */
-
 
 /* 4. Checking if it's an Array
 Instructions:
@@ -62,6 +60,9 @@ console.log(Array.isArray(names));
 console.log(Array.isArray(boy)); */
 
 
+
+
+
 /* 5. Combining Arrays
 Instructions:
 
@@ -69,6 +70,6 @@ Create two arrays of your choice.
 Use the concat method to combine the two arrays into a new array.
 Print both the original arrays and the combined array using console.log(). */
 
-let name1 = ['Kamal', 'Jamal', 'Namal', 'Kalalaa'];
+/* let name1 = ['Kamal', 'Jamal', 'Namal', 'Kalalaa'];
 let roll = [1, 2, 3, 4];
-console.log(name1.concat(roll))
+console.log(name1.concat(roll)) */

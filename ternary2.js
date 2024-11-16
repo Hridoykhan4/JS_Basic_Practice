@@ -1,4 +1,5 @@
-const a = 14;
+const a = 0;
+
 
 // (a >= 18) ? console.log('You can Vote') : (a >= 12) ? console.log('You can swim') : (a >= 5) ? console.log('You can walk') : console.log('Baby');
 
@@ -10,14 +11,13 @@ const a = 14;
 
 // if(isLeader){
 //     if(price > 1000){
-//         price /= 2;
+//         price /= 2; 
 //     }
 //     else{
 //         price = 0;
 //     }
 // }
 // else price;
-
 // console.log(price)
 
 // if(isLeader){

@@ -43,10 +43,6 @@ else if(bmi >= 25){
 
 else console.log('You are obese') */
 
-
-
-
-
 /*** 3rd problem
 
 Grade Calculator
@@ -83,9 +79,6 @@ else {
     console.log('Fail')
 }
  */
-
-
-
 
 /*** 4th problem
 
@@ -125,7 +118,6 @@ else{
 
  */
 
-
 /***Fifth Problem
 
 you have two numbers in two variables, called: num1, num2
@@ -164,8 +156,6 @@ else{
 console.log(result)
  */
 
-
-
 /***Sixth Problem
 
 Ticket fare Calculator
@@ -202,3 +192,4 @@ else{
     console.log('Pay '+ticketPrice+' Taka');
 }
  */
+

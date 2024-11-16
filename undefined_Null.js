@@ -2,7 +2,7 @@ var x;
 console.log(typeof x);
 // Assigning nothing to the variable represents the undefined in the console
 
-var y=null;
+var y= null;
 console.log(typeof y);
 // unfortunately null k console e object hishebe dekhay,it's kinda bug
 

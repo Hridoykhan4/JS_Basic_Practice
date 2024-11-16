@@ -1,4 +1,4 @@
-// var name = "Hero's";
+/* // var name = "Hero's";
 // console.log(name)
 
 
@@ -52,8 +52,36 @@ var second = 'Tobarok';
 
 let x = '10abc';
 let num = Number(x);
-console.log(num)
+// console.log(num)
 
 let z = '10abc';
 console.log(parseInt(z));  // 10 (ignores the 'abc');
-console.log(Number(z));
+// console.log(Number(z));
+
+
+let sum = 0;
+for(let i = 78; i <=98; i+=2){
+    sum += i;
+}
+
+// console.log(sum) */
+
+const bottle = {
+    color: 'white',
+    price: 45,
+    brand: 'apple',
+    isClean: true,
+    accelerate: function(){
+       return 'Car is Movin'
+    },
+    unique: {
+        gpa: 5,
+        merit: 'top'
+    },
+    favPlaces: ['kualalampur', 'sonapur']
+}
+
+const keys = Object.keys(bottle);
+for (const key of keys) {
+    console.log(key)
+}

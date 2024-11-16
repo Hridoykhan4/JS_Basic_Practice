@@ -1,12 +1,10 @@
-var friendName = ['jamal', 'kamal', 'lallu', 'bhua'];
+var friendName = ["jamal", "kamal", "lallu", "bhua"];
 // console.log(friendName.indexOf('kamal'));
 // var indexId = friendName[3];
 // console.log(indexId);
 
 // friendName[3]='Abul';
-// console.log(friendName)
-
-
+// console.log(friendName);
 
 // Array kina Check korbo
 // let names = ['kalam', 'balam', 'salam', 'alam'];
@@ -18,19 +16,17 @@ var friendName = ['jamal', 'kamal', 'lallu', 'bhua'];
 // console.log(Array.isArray([1, 2, 3, 4, 5]))
 
 // Join
-let apps = ['Youtube', 'facebook', 'instagram'];
-console.log(apps.join('+'));
+let apps = ["Youtube", "facebook", "instagram"];
+// console.log(apps.join('+'));
 
+let arr1 = [1, 2, 3, 4, 5];
+let arr2 = [3, 76, 33, 4, 5];
 
-let arr1 = [1,2,3,4,5];
-let arr2 = [3,76,33,4,5];
 // console.log(arr1.concat(arr2))
 // let fruits = ['apple' ,'orange', 'grapes', 'banana', 'Mango'];
 // console.log(fruits[3]);
 // fruits[2] = 'Jambura';
 // console.log(fruits);
-
-
 
 var number = [112, 20, 40, 20, 50];
 // number.push(44);
@@ -60,12 +56,9 @@ number.shift();
 // number.unshift(14);
 // console.log(number);
 
-
-var num = [10,30,1,4,11,42,43,14,15,40,2];
+var num = [10, 30, 1, 4, 11, 42, 43, 14, 15, 40, 2];
 // num.sort(function(a,b){
 //     return b-a;
 // });
 // console.log(num);
 // num.sort((a,b) => a-b);
-
-
