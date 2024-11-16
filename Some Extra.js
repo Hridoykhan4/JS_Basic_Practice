@@ -66,22 +66,9 @@ for(let i = 78; i <=98; i+=2){
 
 // console.log(sum) */
 
-const bottle = {
-    color: 'white',
-    price: 45,
-    brand: 'apple',
-    isClean: true,
-    accelerate: function(){
-       return 'Car is Movin'
-    },
-    unique: {
-        gpa: 5,
-        merit: 'top'
-    },
-    favPlaces: ['kualalampur', 'sonapur']
-}
 
-const keys = Object.keys(bottle);
-for (const key of keys) {
-    console.log(key)
+const abba = 'jamal jhasdj';
+const newAbba = abba.split(' ');
+for (const word of newAbba) {
+    console.log(word[0].toUpperCase()+word.slice(1))
 }
