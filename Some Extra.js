@@ -67,8 +67,3 @@ for(let i = 78; i <=98; i+=2){
 // console.log(sum) */
 
 
-const abba = 'jamal jhasdj';
-const newAbba = abba.split(' ');
-for (const word of newAbba) {
-    console.log(word[0].toUpperCase()+word.slice(1))
-}
