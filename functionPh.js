@@ -1,15 +1,14 @@
 // Argument Vs Parameter
-function difference(num1, num2){
-    const difference = num1 - num2;
-    // console.log(`Father age is ${num1} and my age is ${num2} and our age gap is ${difference}`)
-    console.log(num1, num2, 'difference is : ',difference)
+function difference(num1, num2) {
+  const difference = num1 - num2;
+  // console.log(`Father age is ${num1} and my age is ${num2} and our age gap is ${difference}`)
+  console.log(num1, num2, "difference is : ", difference);
 }
 
 const fatherAge = 55;
 const myAge = 24;
 
 // difference(fatherAge,myAge)
-
 
 // Function return and set return value to a variable
 
@@ -24,23 +23,21 @@ console.log('Output : ', output)
  */
 
 // Recap and conditional return of Odd and Even Number
-function add(price1, price2){
-    const result = price1 + price2;
-    return result;
+function add(price1, price2) {
+  const result = price1 + price2;
+  return result;
 }
 
 const bill = add(5, 80);
 // console.log(bill)
 
-
 // 2nd Function
-function add2(price1,price2){
-    return price1+price2;
+function add2(price1, price2) {
+  return price1 + price2;
 }
 
-const bill2 = add2(5,80);
+const bill2 = add2(5, 80);
 // console.log(bill,bill2)
-
 
 // Do-Math
 /* function doMath(num1,num2){
@@ -55,16 +52,16 @@ const bill2 = add2(5,80);
 const result = doMath(10, 5);
 console.log(result) */
 
-function isEven(num){
-    if(num % 2 === 0){
-        return true;
-    }
-    // else{
-    //     return false;
-    // }
+function isEven(num) {
+  if (num % 2 === 0) {
+    return true;
+  }
+  // else{
+  //     return false;
+  // }
 
-    // 2nd style
-    return false;
+  // 2nd style
+  return false;
 }
 
 // const even = isEven(5);
@@ -72,10 +69,7 @@ function isEven(num){
 
 // console.log(isEven(1))
 
-
 // Differnt types  of parameter of a function
-
-
 
 // function evenSizedString(str){
 //     const size = str.length;
@@ -117,27 +111,26 @@ console.log(arr([2,3,4,54,5,1])) */
 //     return len;
 // }
 
-
 // Sum Of all numbers in an array using function
-function sumOfArray(numbers){
-   /*  let sum = 0;
+function sumOfArray(numbers) {
+  /*  let sum = 0;
     for(let i = 0; i < numbers.length; i++){
         sum += numbers[i];
     }
     return sum; */
-    let sum = 0;
-    for(const num of numbers){
-        sum += num;
-    }
-    return sum;
+  let sum = 0;
+  for (const num of numbers) {
+    sum += num;
+  }
+  return sum;
 }
 
 /* const nums = [1, 2, 3, 4, 5];
 const sum = sumOfArray(nums);
 console.log('Sum of Numbers is: ',sum) */
 
-const arr = [1,2,3,4,5,6];
-console.log('Even numbers are :',evenNumbersOnly(arr)) 
+const arr = [1, 2, 3, 4, 5, 6];
+console.log("Even numbers are :", evenNumbersOnly(arr));
 
 /* function evenNumbersOnly(arr){
 
@@ -153,17 +146,17 @@ console.log('Even numbers are :',evenNumbersOnly(arr))
 const arr = [1,2,3,4,5,6];
 console.log('Even numbers are :',evenNumbersOnly(arr)) */
 
-function sumOfEvenNumbers(numbers){
-    let sum = 0;
+function sumOfEvenNumbers(numbers) {
+  let sum = 0;
 
-    for(const number of numbers){
-        if(number % 2 === 0){
-            sum += number;
-        }
+  for (const number of numbers) {
+    if (number % 2 === 0) {
+      sum += number;
     }
-    return sum;
+  }
+  return sum;
 }
 
-const numbers = [1,2,3,4,5,6,7,8,9,10];
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 const sum = sumOfEvenNumbers(numbers);
-console.log('Sum of the even number is : ',sum);
+console.log("Sum of the even number is : ", sum);

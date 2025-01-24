@@ -41,6 +41,7 @@ Challenge 📢 : বাকে র ভাই যদি ইনপুট হি স
 
 console.log(calculateMoney(1055));
  */
+
 /* Problem-02: Good Name , Bad Name
 ⚠️ Function Name Must be checkName()
 
@@ -145,6 +146,7 @@ console.log(
 console.log(password({ name: "rahat", birthYear: 2002, siteName: "Facebook" }));
 console.log(password({ name: "toky", birthYear: 200, siteName: "Facebook" }));
  */
+
 /* Problem 04 : Make A Great Password
 ⚠️ Function Name Must be password()
 
@@ -183,7 +185,7 @@ Challenge 📢: যদি ক োন একটা প্র োপার্ট�
     for(const money of arr){
         income += money;
     }
- zzzzg GH
+
     for (const elements of arr) {
         if(elements >= 3000){
            tax +=  ((elements * 20) / 100);            

@@ -7,19 +7,19 @@ let bangla = 99.50;
 
 let avg = (math + bio + chem + phy +bangla) / 5;
 
-console.log(avg.toFixed(2));
+// console.log(avg.toFixed(2));
 
 // john teacher gave him two variables.Each variable contains a String,combine them and print them in one line
 
 let first = "I am going to be "
 let second = "an awesome web developer";
-console.log(first + second);
+// console.log(first + second);
 
 // sarahs mom testing sarah to find modulas
 
 let number = 119;
 let div = number % 5;
-console.log(div);
+// console.log(div);
 
 
 // You will create a program that calculates the total cost of items in a shopping cart, including tax. This will involve defining variables for the prices of different items, calculating the subtotal, applying tax, and calculating the final total.
@@ -30,8 +30,11 @@ let item3 = 420;
 let item4 = 410;
 let item5 = 420;
 
-let itemTotal = item1 + item2 +item3 + item4 +item5;
+/* let itemTotal = item1 + item2 +item3 + item4 +item5;
+let tax = itemTotal * 0.2;
+let totalFinal = itemTotal + tax;
 
+console.log(`SubTotal is ${itemTotal}, Tax is ${tax}, Final Total is ${totalFinal}`) */
 
 
 // calculate the tax

@@ -1,17 +1,16 @@
 let laptop = {
-    brand: 'lenovo',
-    price: 35000,
-    processor: 'intel',
-    hdd: '512GB'
-}
+  brand: "lenovo",
+  price: 35000,
+  processor: "intel",
+  hdd: "512GB",
+};
 
 const keys = Object.keys(laptop);
-console.log(keys)
+console.log(keys);
 
-for(let key in laptop){
-    console.log(`${key} : ${laptop[key]}`)
+for (let key in laptop) {
+  console.log(`${key} : ${laptop[key]}`);
 }
-
 
 // Values getting
 // let values = Object.values(laptop)
@@ -19,9 +18,6 @@ for(let key in laptop){
 
 // Key getting
 // let keys = Object.keys(laptop)
-// console.log(keys)
-
-// const keys = Object.keys(laptop);
 // console.log(keys)
 
 const value = Object.values(laptop);

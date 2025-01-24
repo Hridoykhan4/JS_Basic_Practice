@@ -9,7 +9,6 @@
 }
 console.log(multiply(2,3,2,3)) */
 
-
 /* Task-2
 Take a number if the number is odd multiply it by 2 and return the result. If the number is even divide it by two and return the result.
  */
@@ -46,12 +45,10 @@ let arrays = [1,2,3,4,5,6];
 let size = arrays.length;
 console.log(make_avg(arrays, size)) */
 
-
 /* Task-4
-Write a function called count_zero() which will take a binary string (Binary string is a string which is consist of only 0 and 1) as parameter and count how many 0’s are there in that string. */ 
-
-
-/* function count_zero(binary){
+Write a function called count_zero() which will take a binary string (Binary string is a string which is consist of only 0 and 1) as parameter and count how many 0’s are there in that string. */
+/* 
+function count_zero(binary){
     let count0 = 0;
     let count1 = 0;
 
@@ -86,21 +83,3 @@ console.log(odd_even(10));
 console.log(odd_even(5));
 
  */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

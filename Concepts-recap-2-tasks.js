@@ -15,7 +15,6 @@ Find the lowest number in the array below. const heights2 = [167, 190, 120, 165,
 const heights2 = [167, 190, 120, 165, 137];
 console.log(lowestHeight(heights2)) */
 
-
 /* Task -2:
 Find the friend with the smallest name. const heights2 = ['rahim', 'robin', 'rafi', 'ron', 'rashed']; */
 
@@ -41,7 +40,6 @@ tablet = 15000 tk
 mobile = 20000 tk
 Write a JavaScript function named calculateElectronicsBudget that takes in the number of laptop, tablets, and mobile and returns the total money required. */
 
-
 /* 
 function calculateElectronicsBudget(laptopQuantity, tabletQuantity, mobileQuantity){
     const laptopPrice  = 35000;
@@ -64,7 +62,7 @@ const phones = [
     { model: "PhoneD", brand: "Nokia", price: 35000 },
     { model: "PhoneE", brand: "Iphone", price: 105000 },
     { model: "PhoneF", brand: "HTC", price: 48000 },
-]; */  
+]; */
 /* function findAveragePhonePrice(mobiles){
     let sum = 0;
     for (const mobile of mobiles) {
@@ -93,8 +91,7 @@ For each employee their current salary is calculated by multiplying yearly incre
             { name: "shohel", experience: 0, starting: 29000, increment: 4000 },
         ]; */
 
-
- /*    function totalSalary(employees){
+/*    function totalSalary(employees){
         let sum = 0;
         for(const salary of employees){
             const currentSalary = salary.starting + (salary.increment * salary.experience);
@@ -115,4 +112,4 @@ For each employee their current salary is calculated by multiplying yearly incre
             { name: "shohel", experience: 0, starting: 29000, increment: 4000 },
         ]; 
  */
-        console.log(totalSalary(employees))
+console.log(totalSalary(employees));

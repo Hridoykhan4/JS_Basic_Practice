@@ -11,7 +11,7 @@
 Write a while loop that adds numbers starting from 1, but stops (using break) as soon as the sum reaches or exceeds 100
 */
 
-let sum = 0;
+/* let sum = 0;
 let n = 1;
 while(true){
     sum += n;
@@ -22,12 +22,11 @@ while(true){
     }
     n++;
 }
-console.log(sum)
+console.log(sum) */
 
 /* 
 Write a loop to print even numbers from 1 to 40. Use continue to skip odd numbers.
 */
-
 
 /* for(let i = 1; i <= 40; i++){
     if(i % 2 !== 0){

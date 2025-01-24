@@ -1,6 +1,5 @@
 // 1 feet = 12 inch
 
-
 /* function inchToFeet(inch){
     let fractionInch = inch / 12;
     const feetNumber = parseInt(fractionInch);
@@ -30,7 +29,6 @@ console.log(kmToMiles(2)); */
 // Simple Leap year
 // Year will be a leap year if the year is divisible by 4
 
-
 // Leap Year
 /* function isLeap(year){
     if(year % 4 === 0 && year % 100 !== 0){
@@ -39,16 +37,15 @@ console.log(kmToMiles(2)); */
     return 'Not Leap'
 } */
 
-function isLeap(year){
-    if((year % 100 !== 0 && year % 4 === 0) || (year % 400 === 0)){
-        return 'Leap Year'
-    }
-    // else if(year % 400 === 0){
-    //     return 'Leap year'
-    // }
-    return 'Not Leap';
+function isLeap(year) {
+  if ((year % 100 !== 0 && year % 4 === 0) || year % 400 === 0) {
+    return "Leap Year";
+  }
+  // else if(year % 400 === 0){
+  //     return 'Leap year'
+  // }
+  return "Not Leap";
 }
-
 
 /* console.log(isLeap(2100));
 console.log(isLeap(2400));
@@ -99,7 +96,6 @@ function oddAverage(numbers){
 const numbers = [42, 13, 58, 65, 81, 7];
 console.log('Average of the even number is :  ', oddAverage(numbers));  */
 
-
 // Remove duplicate items in an array
 
 /* function noDuplicate(array){
@@ -115,8 +111,6 @@ console.log('Average of the even number is :  ', oddAverage(numbers));  */
 /* const numbers = [1,2,2,33,21,2,2,2];
 const biraniKhor = ['abul', 'babul', 'cabul',  'abul', 'babul'];
 console.log(noDuplicate(biraniKhor)) */
-
-
 
 // Swap
 

@@ -7,9 +7,7 @@ console.log(myFunc('Hridoy', 'Bangladesh'));
 console.log(myFunc('Hridoy', 'Bangladesh'));
 console.log(myFunc('Hridoy', 'Bangladesh')); */
 
-
-
-// object(product); 
+// object(product);
 /* function object(a){
     console.log(`Product name is ${a.names} price is ${a.price} and color is ${a.color}`)
 }
@@ -28,8 +26,6 @@ object(product); */
 
 console.log(myDetails('Kamal', 22, 'Kaptai'));
 console.log(myDetails('Jamal', 22, 'New Zealand')); */
-
-
 
 // problem.js
 // Check if the number is even or odd
@@ -50,12 +46,10 @@ function checkEvenOdd(x){
     }
     myName(4) */
 
-
 /* -------------------------- 
 Validation
 --------------------------
 */
-
 
 /* function add(x, y){
     if(typeof x !== 'number' || typeof y !== 'number'){
@@ -73,13 +67,11 @@ if(typeof a === 'number'){
 }
 else console.log('not number') */
 
-
 /* function details(info){
     return `My name is ${info.name} and my age is ${info.age}`
 }
 
 console.log(details({name: "Hridoy", age: 24})); */
-
 
 // console.log(details("xyz"));
 /* function details(info){
@@ -100,8 +92,6 @@ console.log(details({name: "Hridoy", age: 24})); */
 }
 
 console.log(details({name: "kamal",age: -10})); */
-
-
 
 // Problem solving
 
@@ -133,10 +123,8 @@ console.log(details({name: "kamal",age: -10})); */
 // console.log(findLargest('Abul'))
 console.log(findLargest([1,2,3,4,5,false,'Kamal',22])); */
 
-
 // Solving 1.js
-// 16 anay 1 vhori 
-
+// 16 anay 1 vhori
 
 /* function AnaToVori(ana){
     if(ana < 0 || typeof ana !== 'number'){
@@ -147,8 +135,6 @@ console.log(findLargest([1,2,3,4,5,false,'Kamal',22])); */
 }
 console.log(AnaToVori(16))
  */
-
-
 
 // 2nd problem
 /* function PandaCost(singara, samucha, jilapi){
@@ -174,15 +160,7 @@ console.log(AnaToVori(16))
 console.log(PandaCost(1,-1,1));
  */
 
-
 // 3rd problem
-
-
-
-
-
-
-
 
 /* function picnicBudget(participants){
     let first100Cost = 0;
@@ -213,9 +191,7 @@ console.log(PandaCost(1,-1,1));
             return total;
 
         }
-       
-
-
+    
     }
 }
 

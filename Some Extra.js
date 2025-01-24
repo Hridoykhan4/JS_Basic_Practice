@@ -52,7 +52,7 @@ var second = 'Tobarok';
 
 let x = '10abc';
 let num = Number(x);
-// console.log(num)
+console.log(num)
 
 let z = '10abc';
 console.log(parseInt(z));  // 10 (ignores the 'abc');
@@ -65,4 +65,6 @@ for(let i = 78; i <=98; i+=2){
 }
 
 // console.log(sum) */
+
+
 

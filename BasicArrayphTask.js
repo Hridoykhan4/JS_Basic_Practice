@@ -59,10 +59,6 @@ console.log(Array.isArray(car));
 console.log(Array.isArray(names));
 console.log(Array.isArray(boy)); */
 
-
-
-
-
 /* 5. Combining Arrays
 Instructions:
 

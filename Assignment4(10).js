@@ -25,50 +25,47 @@ Input :
 প্রথম ইনপুট:  একটি পজিটিভ সংখ্যা যা মাসিক আয়। (0<=income )
 দ্বিতীয় ইনপুট: একটি পজিটিভ সংখ্যা যা মাসিক খরচ।  (0<=expense )
 Income সবসময় expense থেকে সমান বা  বেশি হবে।  (income >=expense)
-
-
 Output :   ফাংশনটি ক্যালকুলেটেড ট্যাক্স রিটার্ন করবে। Output দশমিক সংখ্যা ও হতে পারে।
-
-
-
 Hints 💡:  income 10000 টাকা এবং expense 3000 টাকা হলে তাঁর আয় এবং খরচের পার্থ্যক্য হবে 
 10000-3000 = 7000 টাকা।  সুতরাং তার ট্যাক্স হবে (7000 * .20)  =1400  টাকা।  
  */
 
 // Solution 1
-/* function sendNotification(email){
-    if(!email.includes('@')){
-        return 'Invalid Email'
-    }
-    const divideMail = email.split('@');
+// function sendNotification(email){
+//     if(!email.includes('@')){
+//         return 'Invalid Email'
+//     }
+//     const divideMail = email.split('@');
 
-        return `${divideMail[0]} sent you an email from ${divideMail[1]}`
+//         return `${divideMail[0]} sent you an email from ${divideMail[1]}`
 
-}
+// }
 
-
-console.log(sendNotification('zihad@gmail.com'));
-console.log(sendNotification('farhan34@yahoo.com'));
-console.log(sendNotification('nadim.naem5@outlook.com'));
-console.log(sendNotification('fahim234@hotmail.com'));
-console.log(sendNotification('sadiaa8icloud.com')); */
-
+// console.log(sendNotification('zihad@gmail.com'));
+// console.log(sendNotification('farhan34@yahoo.com'));
+// console.log(sendNotification('nadim.naem5@outlook.com'));
+// console.log(sendNotification('fahim234@hotmail.com'));
+// console.log(sendNotification('sadiaa8icloud.com'));
 
 // soltion 2
 
-function sendNotification(email){
-    const newEmail = email.split('@');
-/*     const message = email.includes('@') ? `${newEmail[0]} sent an email from ${newEmail[1]}` : 'Invalid'
-    return message */
-    const message = email.indexOf('@') !== -1 ? `${newEmail[0]} sent an email from ${newEmail[1]}` : 'Invalid'
-    return message
-}
+// function sendNotification(email) {
+//   const newEmail = email.split("@");
+//   /*     const message = email.includes('@') ? `${newEmail[0]} sent an email from ${newEmail[1]}` : 'Invalid'
+//     return message */
+//   const message =
+//     email.indexOf("@") !== -1
+//       ? `${newEmail[0]} sent an email from ${newEmail[1]}`
+//       : "Invalid";
+//   return message;
+// }
 
 /* console.log(sendNotification('zihad@gmail.com'));
 console.log(sendNotification('farhan34@yahoo.com'));
 console.log(sendNotification('nadim.naem5@outlook.com'));
 console.log(sendNotification('fahim234@hotmail.com'));
-console.log(sendNotification('sadiaa8icloud.com'));  */
+console.log(sendNotification('sadiaa8icloud.com')); 
+ */
 /* Problem 02 : Notification Generator
 ⚠️ Function Name Must be sendNotification()
 তোমরা জানো, একটি ইমেল ২টি অংশ নিয়ে গঠিত হয়, একটি হল `username` অন্যটি `domain name`। যেমন zihad.ph@gmail.com এখানে zihad.ph হলো ইউজার নেইম,  gmail.com হলো ডোমেইন নেইম।  তোমাকে এমন একটি ফাংশন বানাতে হবে যা input হিসেবে একটা email নিবে।  ফাংশনের কাজ হবে, ইমেইলে থাকা `username` ও `domain  name` আংশ গুলো ব্যবহার করে, একটি notification message তৈরি করা।  
@@ -101,6 +98,7 @@ Hints 💡:  split() , indexOf() মেথড ব্যবহার করতে
 }
 
  */
+
 /* 
 Problem-03: Checking Digits Inside a Name
 ⚠️ Function Name Must be checkDigitsInName()
@@ -116,25 +114,29 @@ Output :  এটা  রিটার্ন করবে একটা বুল�
 Challenge 📢 : ইনপুট যদি স্ট্রিং বাদে অন্য কিছু হয়, তবে "Invalid Input" রিটার্ন করবে।
  */
 
+// function calculateFinalScore(info) {
+//   if (
+//     typeof info !== "object" ||
+//     typeof info.name !== "string" ||
+//     typeof info.testScore !== "number" ||
+//     typeof info.schoolGrade !== "number" ||
+//     typeof info.isFFamily !== "boolean"
+//   ) {
+//     return "Invalid Input";
+//   }
 
-function calculateFinalScore(info){
-    if(typeof info !== 'object' || typeof info.name !== 'string' || typeof info.testScore !== 'number' || typeof info.schoolGrade !== 'number' || typeof info.isFFamily !== 'boolean'){
-        return 'Invalid Input'
-    }
+//   return info.testScore + info.schoolGrade + (info.isFFamily ? 20 : 0) >= 80;
 
-    return info.testScore +info.schoolGrade + (info.isFFamily ? 20 : 0) >= 80;
+//   /*   const parentProfessionFarmer = 20;
 
-  /*   const parentProfessionFarmer = 20;
+//     let total = info.testScore + info.schoolGrade;
 
-    let total = info.testScore + info.schoolGrade;
+//     if(info.isFFamily === true){
+//         total += parentProfessionFarmer;
+//     }
 
-    if(info.isFFamily === true){
-        total += parentProfessionFarmer;
-    }
-
-    return total >= 80 */
-
-}
+//     return total >= 80 */
+// }
 
 /* const information = {
      name: "Rajib",
@@ -148,6 +150,7 @@ console.log(calculateFinalScore({ name: "Rajib", testScore: 45,  schoolGrade: 25
 console.log(calculateFinalScore("hello"));
 console.log(calculateFinalScore({ name: "Rajib", testScore: 15,  schoolGrade: 25, isFFamily : true  }));
  */
+
 /* Problem 04 : Calculate Admission Final Score 
 ⚠️ Function Name Must be calculateFinalScore()
 রাকিব একটি সফটওয়্যার কোম্পানিতে প্রোগ্রামার হিসেবে কাজ করছেন। তার ছোট ভাই, রাজিব, একটি বিখ্যাত বিশ্ববিদ্যালয়ে ভর্তি পরীক্ষা দিয়েছে। ভর্তি পরীক্ষার ফলাফল বিভিন্ন মানদণ্ডের উপর ভিত্তি করে নির্ধারিত হবে। রাজিবের পরীক্ষার স্কোর, স্কুলের গ্রেড, এবং অভিভাবকের প্রোফেশন (যদি "farmer" হয়) সবকিছু মিলিয়ে তার ফাইনাল স্কোর বের করতে হবে।তুমি যেহেতু রাকিবের সহকর্মী এবং ভালো প্রোগ্রামার, তাই রাকিব চায় তুমি একটি ফাংশন calculateFinalScore() বানিয়ে দাও, যা রাজিবের বিভিন্ন তথ্য ইনপুট হিসেবে নিয়ে ফাইনাল স্কোর বের করবে। ফাইনাল স্কোর যদি ৮০ বা তার বেশি হয়, তাহলে সে ভর্তি হতে পারবে। অন্যথায়, সে ভর্তি হতে পারবে না। 
@@ -169,7 +172,6 @@ Output :  এটা রিটার্ন করবে একটা বুলি
 Challenge 📢:  যদি ইনপুট টি অব্জেক্ট না হয় তাহলে একটি এরর মেসেজ দেবে একটি  "Invalid Input"
 
  */
-
 
 /* function waitingTime(doneArray, isratSerial){
     if(!Array.isArray(doneArray) || typeof isratSerial !== 'number'){

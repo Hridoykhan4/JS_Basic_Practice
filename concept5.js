@@ -1,14 +1,14 @@
-// const x = "hello       ";
-// const y = '           hElLo';
+/* const x = "hello       ";
+const y = '           hElLo';
 
-// if(x.trim().toLowerCase() === y.trim().toLowerCase()){
-//     console.log('Same');
-// }
+if(x.trim().toLowerCase() === y.trim().toLowerCase()){
+    console.log('Same');
+}
 
-// else{
-//     console.log('Different');
-// }
-
+else{
+    console.log('Different');
+}
+ */
 // const nam = "Mama, I am in a very jolly mood today";
 // console.log(nam.includes('jolly'))
 
@@ -30,19 +30,11 @@ let brother = "hello";
 // }
 
 // Array Methods
-const x = "My name is Hero";
+// const x = "My name is Hero";
 // const words = x.split(' ');
 // console.log(words);
 // const y = words.join('/');
 // console.log(y)
-
-
-
-
-
-
-
-
 
 // Object Part
 // const myPet = {
@@ -73,7 +65,6 @@ const x = "My name is Hero";
 
 // const petMeal = 'food';
 // console.log(myPet[petMeal])
-
 
 // const myPet = {
 //     name: "Travis",
@@ -110,15 +101,14 @@ const x = "My name is Hero";
 //   console.log(students.name.middleName);
 //   console.log(students.subjects[1])
 
-
 //   Template JS
 const myPet = {
-        name: "Travis",
-        age: 2,
-        isMale: true,
-        food: "Fish",
-        color: "white",
-        species: "Persian",
+  name: "Travis",
+  age: 2,
+  isMale: true,
+  food: "Fish",
+  color: "white",
+  species: "Persian",
 };
 
 // My pet name is Travis.His favourite food is Fish.and his color is white
@@ -126,4 +116,4 @@ const myPet = {
 // console.log(sentence)
 
 const sentence = `My pet name is ${myPet.name}.His favorite food is ${myPet.food}.and his color is ${myPet.color}`;
-console.log(sentence)
+// console.log(sentence)

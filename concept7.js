@@ -1,20 +1,14 @@
-
-/* আমার কাছে একটা array তে কিছু নাম্বার আছে, আমাকে বের করতে হবে সবচেয়ে বড় নাম্বার কোনটা ।
+// আমার কাছে একটা array তে কিছু নাম্বার আছে, আমাকে বের করতে হবে সবচেয়ে বড় নাম্বার কোনটা ।
 
 const numbers = [2, 4, 21, 5, 6, 23, 20, 9];
-console.log(Math.max(...numbers))
- */
-
-
+// console.log(Math.max(...numbers));
 // function(maxNumber){
-    
-// }
-    
 
-const numbers = [2, 4, 21, 5, 6, 23, 20, 9];
+// }
+
+// const numbers = [2, 4, 21, 5, 6, 23, 20, 9];
 
 // console.log(Math.max(...numbers))
-
 
 /* let max = numbers[0];
 console.log('Before biggest',max); */
@@ -28,20 +22,17 @@ console.log('Before biggest',max); */
 }
 console.log("After loop : ",max) */
 
-
 // Passing a object
 
-
-function showInfo(info){
-/*     if(typeof info !== 'object'){
+function showInfo(info) {
+  /*     if(typeof info !== 'object'){
         return 'Enter an Object';
     }
     return `My name is ${info.name} and I live in ${info.address}` */
-    // const result = info.name+"@"+info.address;
-    // return result;
-    // return  `${info.name}@${info.address}`
+  // const result = info.name+"@"+info.address;
+  // return result;
+  // return  `${info.name}@${info.address}`
 }
-
 
 /* const person = {
     name: 'Kamal',
@@ -111,13 +102,10 @@ rickshaw (4) = 20 *4 = 80 taka
 
     return totalRickshawCost;
 
-}
-
-console.log(rickshawBhara(234)); */
+} */
 
 
 // Job tasks
-
 
 // function jobSelection(info){
 //         if(typeof info !== 'object'){
@@ -129,7 +117,6 @@ console.log(rickshawBhara(234)); */
 //             total_marks = total_marks + (total_marks * 20 / 100);
 //         }
 
-        
 //         console.log(total_marks)
 
 //         if(info.isFFfamily && total_marks >= 80){
@@ -145,12 +132,11 @@ console.log(rickshawBhara(234)); */
 //             return "Rajakar Rajakar";
 //         }
 
- 
 //         if(total_marks >= 80){
 //             return 'You got the job';
 //         }
 //         return "sorry"
 // }
 
-console.log(jobSelection(person1));
-console.log(jobSelection(person2));
+// console.log(jobSelection(person1));
+// console.log(jobSelection(person2));

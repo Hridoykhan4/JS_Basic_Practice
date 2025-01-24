@@ -7,19 +7,16 @@ let myObject = { name: 'John Doe', age: 25, city: 'Example City', isStudent: tru
 
 Output: key: name | type: string key: age | type: number key: city | type: string key: isStudent | type: boolean */
 
-let myObject = {
-     name: 'John Doe',
-     age: 25, 
-     city: 'Example City',
-    isStudent: true 
-    };
+/* let myObject = {
+  name: "John Doe",
+  age: 25,
+  city: "Example City",
+  isStudent: true,
+}; */
 
- 
-
-  /*   for(const prop in myObject){
+ /*  for(const prop in myObject){
        console.log(`key: ${prop} | type: ${typeof myObject[prop]}`)
     } */
-
 
 // Access the golden rod color value in output.
 // const colors = {
@@ -39,7 +36,7 @@ let myObject = {
 // };
 
 // car['Passenger Capacity'] = 5;
-// console.log(car) 
+// console.log(car)
 
 // Display the physics marks as output.
 
@@ -69,29 +66,25 @@ let myObject = {
 // const count = Object.keys(student).length;
 // console.log(count);
 
-
-
-
 // Loop through an object and print the key-value pairs with their types
 
 // Input:
 
-// let myObject = {
-// name: 'John Doe',
-// age: 25,
-// city: 'Example City',
-// isStudent: true
-// }
+let myObject = {
+name: 'John Doe',
+age: 25,
+city: 'Example City',
+isStudent: true
+}
 
-// const key = Object.keys(myObject);
+const key = Object.keys(myObject);
 
-// for(const key in myObject){
-//     console.log(key,":",myObject[key])
-// }
+/* for(const key in myObject){
+    console.log(key,":",myObject[key])
+} */
 
-// for(i = 0;i <key.length; i++){
-//     let propertyName = key[i];
-//     propertyValue = myObject[propertyName];
-//     console.log(propertyName, ':', propertyValue)
-// }
-
+for(i = 0;i <key.length; i++){
+    let propertyName = key[i];
+    propertyValue = myObject[propertyName];
+    console.log(propertyName, ':', propertyValue)
+}

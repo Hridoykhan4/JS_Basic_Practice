@@ -1,25 +1,22 @@
 // factorial
-// let fact = 1;
-// let number = 4;
+/* let fact = 1;
+let number = 3;
 
-// for(let i=1;i<=4;i++){
-//     fact = fact*i;
-// }
+for(let i=1;i<=number;i++){
+    fact = fact*i;
+}
 
-// console.log(fact);
+console.log(fact);
+ */
 
+/* function fact(n){
+    if(n==1)
+        return 1;
 
-// function fact(n){
-//     if(n==1)
-//         return 1;
+    else return n*fact(n-1);
+}
 
-//     else return n*fact(n-1);
-// }
-
-
-// console.log(fact(5)); 
-
-
+console.log(fact(5)); */
 
 // let farn = 104;
 
@@ -36,7 +33,6 @@
 // y = ++x;
 
 // console.log(x)
-
 
 // let letter = 'e';
 // if(letter=='a' || letter == 'e' || letter == 'i' || letter == 'o' || letter == 'u'){
@@ -55,8 +51,6 @@
 // else if(letter>='A' && letter<='Z'){
 //     console.log("Capital Letter");
 // }
-
-
 
 // let arr = [1,2,3,4,56,7,7,434];
 
@@ -86,7 +80,6 @@
 // }
 // console.log();
 // console.log(sum);
-
 
 // Multiplication table
 // let num = 5;
@@ -134,7 +127,6 @@
 // }
 // console.log(result);
 
-
 // Sum of digit
 // let num = 123;
 // let sum = 0,r,temp;
@@ -148,7 +140,6 @@
 // }
 
 // console.log(sum);
-
 
 // Reverse integer
 
@@ -184,7 +175,6 @@
 //         console.log("Not Palindrome");
 //     }
 
-
 // Leap year
 //    let year = 2024;
 // // leap year 29 dine hy,jodi 400 diye divide hy then leap abar 4 diye divide hy,kintu 100 diye divide hy na taw leap
@@ -211,14 +201,9 @@
 // var gpa = "4.5";
 // console.log(parseFloat(gpa));
 
-
 // to fixed,parseFloat er usage
 // var num = 0.1;
 // var num1 = 0.2;
 // var sum = num + num1;
 
 // console.log(parseFloat(sum.toFixed(1)));
-
-
-
-

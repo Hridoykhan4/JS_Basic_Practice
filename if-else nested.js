@@ -20,28 +20,21 @@ const price = 500;
 let discount;
 let total;
 
-if(age <= 12){
-    discount = price * 20 / 100;
-    total = price - discount;
-    // console.log('You have to pay '+total+' taka');
-}
-
-else if(age >= 60){
-    discount = price * 50 / 100;
-    total = price - discount;
-    // console.log('You have to pay '+total+' taka');
-}
-
-else if(age >= 50){
-    // 25% discount
-    discount = price * 25 /100;
-    total = price - discount;
-    // console.log('You Have to Pay '+total+' Taka')
-}
-
-
-else {
-    // console.log('Please pay '+price);
+if (age <= 12) {
+  discount = (price * 20) / 100;
+  total = price - discount;
+  // console.log('You have to pay '+total+' taka');
+} else if (age >= 60) {
+  discount = (price * 50) / 100;
+  total = price - discount;
+  // console.log('You have to pay '+total+' taka');
+} else if (age >= 50) {
+  // 25% discount
+  discount = (price * 25) / 100;
+  total = price - discount;
+  // console.log('You Have to Pay '+total+' Taka')
+} else {
+  // console.log('Please pay '+price);
 }
 
 // BMI calculation
@@ -67,26 +60,16 @@ else {
 
 let grade = 50;
 
-if(grade >= 80 && grade <= 100){
-    console.log('A+');
-}
-
-else if(grade >= 70 && grade <= 79){
-    console.log('A');
-}
-
-else if(grade >= 60 && grade <= 69){
-    console.log('B');
-}
-
-else if(grade >= 50 && grade <= 59){
-    console.log('C');
-}
-
-else if(grade > 44 && grade <= 49){
-    console.log('D');
-}
-
- else{
-    console.log('Fail')
+if (grade >= 80 && grade <= 100) {
+  console.log("A+");
+} else if (grade >= 70 && grade <= 79) {
+  console.log("A");
+} else if (grade >= 60 && grade <= 69) {
+  console.log("B");
+} else if (grade >= 50 && grade <= 59) {
+  console.log("C");
+} else if (grade > 44 && grade <= 49) {
+  console.log("D");
+} else {
+  console.log("Fail");
 }

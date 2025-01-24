@@ -192,4 +192,3 @@ else{
     console.log('Pay '+ticketPrice+' Taka');
 }
  */
-

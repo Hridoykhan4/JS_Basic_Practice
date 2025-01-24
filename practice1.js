@@ -20,8 +20,16 @@ var item3 = {
 
 addItem.unshift(item3);
 
+for (const element of addItem) {
+    if(element.nam === 'Kamalla'){
+        element.nam = 'Jamal'
+    }
+}
 
-
+/* for (const element of addItem) {
+    console.log(`Name is ${element.nam},Age is ${element.age} and class is ${element.class}`)
+}
+ */
 // var addItem = [item1,item2];
 
 // var item3 = {
@@ -54,6 +62,7 @@ addItem.unshift(item3);
 
 // Cool
 // var num  = [12,11,43,23,222,111,555];
+// Math.max cannot handle an array directly...So we must use spread operator
 
 
 // let maxx = Math.max(...num);
@@ -69,34 +78,37 @@ addItem.unshift(item3);
 //     console.log(bookPrice[i]);
 // }
 
-// let names = ['Jamal', 'Kamal', 'Bhuban', 'Bam', 'Sam'];
-// let score = [100, 23, 66, 33, 54];
-// let grade;
+let names = ['Jamal', 'Kamal', 'Bhuban', 'Bam', 'Sam'];
+let score = [100, 23, 66, 33, 54];
+let grade;
 
-// for(let i = 0; i < score.length; i++){
-//     if(score[i] >= 90){
-//         grade = 'A';
-//     }
+
+
+
+/* for(let i = 0; i < score.length; i++){
+    if(score[i] >= 90){
+        grade = 'A';
+    }
     
-//     else if(score[i] >= 80){
-//         grade = 'B';
-//     }
+    else if(score[i] >= 80){
+        grade = 'B';
+    }
     
-//     else if(score[i] >= 70){
-//         grade = 'C';
-//     }
+    else if(score[i] >= 70){
+        grade = 'C';
+    }
     
-//     else if(score[i] >= 60){
-//         grade = 'D';
-//     }
+    else if(score[i] >= 60){
+        grade = 'D';
+    }
     
-//     else if(score[i] >= 50 ){
-//         grade = 'E';
-//     }
+    else if(score[i] >= 50 ){
+        grade = 'E';
+    }
     
-//     else grade = 'F';
-//     console.log(`${names[i]}'s grade is ${grade}`);
-// }
+    else grade = 'F';
+    console.log(`${names[i]}'s grade is ${grade}`);
+} */
 
 
 // Slice er khetre kotha theke shuru hbe then end er aage shb katbe

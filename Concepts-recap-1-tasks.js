@@ -14,8 +14,6 @@ Write a function to convert temperature from Celsius to Fahrenheit.
 
 console.log(celsToFarn(40)) */
 
-
-
 /* Task-2:
 You are given an array of numbers. Count how many times the a number is repeated in the array.
 
@@ -49,8 +47,6 @@ const numbers = [5,6,11,12,98, 5];
 let find = 5;
 console.log(countNumber(numbers, find)); */
 
-
-
 // Task-3:
 // Write a function to count the number of vowels in a string.
 
@@ -75,8 +71,6 @@ console.log(countNumber(numbers, find)); */
 const letters = 'Kamal is a good boy';
 console.log(countVowels(letters)) */
 
-
-
 /* Task-4:
 Write a function to find the longest word in a given string.
 
@@ -96,7 +90,6 @@ sample-output: Programming */
 }
 
 console.log(longestWord('I am learning Programming to become a programmer')); */
-
 
 /* 
 Task-5:
