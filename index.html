@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .fs {
+        font-size: 3rem;
+      }
+    </style>
+  </head>
+  <body id="main">
+    <section>
+      <ul>
+        <li class="places-imp">jamal</li>
+        <li class="places-imp">Kamal</li>
+        <li class="places-imp">Salam</li>
+      </ul>
+    </section>
+    <section>
+      <ul>
+        <li class="places-imp">jamal</li>
+        <li class="places-imp">Kamal</li>
+        <li class="places-imp">Salam</li>
+      </ul>
+    </section>
+    <section>
+      <ul>
+        <li class="places-imp">jamal</li>
+        <li class="places-imp">Kamal</li>
+        <li class="places-imp">Salam</li>
+      </ul>
+    </section>
+
+    <script>
+      const main = document.getElementById("main");
+      const section = document.createElement("section");
+      section.style.backgroundColor = "red";
+      section.innerHTML = `<ul>
+          <li class="places-imp">jamal111</li>
+          <li class="places-imp">Kama111l</li>
+          <li class="places-imp">Salam1111</li>
+      </ul>`;
+      main.appendChild(section);
+    </script>
+  </body>
+</html>
