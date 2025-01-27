@@ -8,41 +8,108 @@
       .fs {
         font-size: 3rem;
       }
+
+      button:disabled {
+        cursor: not-allowed;
+      }
     </style>
   </head>
   <body id="main">
-    <section>
-      <ul>
-        <li class="places-imp">jamal</li>
-        <li class="places-imp">Kamal</li>
-        <li class="places-imp">Salam</li>
-      </ul>
-    </section>
-    <section>
-      <ul>
-        <li class="places-imp">jamal</li>
-        <li class="places-imp">Kamal</li>
-        <li class="places-imp">Salam</li>
-      </ul>
-    </section>
-    <section>
-      <ul>
-        <li class="places-imp">jamal</li>
-        <li class="places-imp">Kamal</li>
-        <li class="places-imp">Salam</li>
-      </ul>
-    </section>
+    <div
+      style="
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      "
+    >
+      <div>
+        <h3>Goriber Evaly Rebooted</h3>
+
+        <textarea
+          id="textValue"
+          name=""
+          rows="5"
+          cols="50"
+          style="padding: 1rem; font-size: 1.4rem"
+          id=""
+        ></textarea>
+
+        <div style="display: flex; justify-content: end">
+          <button
+            onclick="sumbitbtn()"
+            style="
+              background-color: green;
+              color: white;
+              padding: 1rem 1.9rem;
+              border-radius: 10px;
+            "
+          >
+            Sumbit
+          </button>
+        </div>
+
+        <div>
+          <h3 style="color: blue; font-size: 1.7rem">User Review</h3>
+
+          <ul
+            id="review"
+            style="
+              list-style: decimal;
+              height: 400px;
+              border: 2px solid;
+              overflow-y: auto;
+              word-wrap: break-word;
+            "
+          ></ul>
+        </div>
+      </div>
+    </div>
 
     <script>
-      const main = document.getElementById("main");
-      const section = document.createElement("section");
-      section.style.backgroundColor = "red";
-      section.innerHTML = `<ul>
-          <li class="places-imp">jamal111</li>
-          <li class="places-imp">Kama111l</li>
-          <li class="places-imp">Salam1111</li>
-      </ul>`;
-      main.appendChild(section);
+      const sumbitbtn = () => {
+        const textValue = document.getElementById("textValue").value;
+
+        if (!textValue.trim()) {
+          return;
+        }
+
+        const review = document.getElementById("review");
+        const li = document.createElement("li");
+        li.style.fontSize = "1.4rem";
+        li.style.margin = "1rem 0";
+        li.style.wordBreak = "break-word";
+
+        li.innerHTML = `
+      ${textValue}
+      `;
+
+        const removeBtn = document.createElement("button");
+        removeBtn.style.marginLeft = "4rem";
+        removeBtn.style.backgroundColor = "red";
+        removeBtn.style.color = "white";
+        removeBtn.style.border = "none";
+        removeBtn.style.padding = "0.5rem 1rem";
+        removeBtn.style.borderRadius = "5px";
+        removeBtn.style.cursor = "pointer";
+        removeBtn.innerText = "Remove";
+
+        li.appendChild(removeBtn);
+
+        removeBtn.addEventListener("click", () => {
+          li.remove();
+        });
+
+        review.appendChild(li);
+
+        document.getElementById("textValue").value = "";
+      };
+
+      document.getElementById("textValue").addEventListener("keyup", (e) => {
+        if (e.key === "Enter") {
+          sumbitbtn();
+        }
+      });
     </script>
   </body>
 </html>
