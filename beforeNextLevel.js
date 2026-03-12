@@ -4,11 +4,90 @@
 // console.log((1).toString());
 // console.log(String(3));
 
-
 // const order = 1..toString().padStart(4, '0').substring(3)
 // console.log((Number(order) + 1).toString().padStart(3, 0));
 
-// for(let i = 1; i <= 10; i++) {
-//     console.log(i+ ' Kamal');
+// let mangoPot = 0;
+// for (let i = 1; i <= 10; i++) {
+//   mangoPot += i;
+// }
+// console.log(mangoPot);
+
+// let sum = 0
+// for (let i = 1; i <= 10; i++) {
+//     sum += 1
+// }
+// console.log(sum);
+
+// const obj = {
+//     name:'jamal',
+//     age: 12
+// }
+// const keys = Object.keys(obj);
+// for (let i = 0; i < keys.length ; i++) {
+//     const element = keys[i];
+//     console.log(element, obj[element]);
 // }
 
+// console.log(obj['name']);
+
+// for (const key in obj) {
+//     if (!Object.hasOwn(obj, key)) continue;
+
+//     const element = obj[key];
+//     console.log(element);
+
+// }
+
+// const friend = ['jamal', 'salam', 'kamal']
+// for (const f of friend) {
+//         console.log(`Welcome ${f} !! `);
+// }
+
+// Array of objects for three trainers
+const trainers = [
+  {
+    name: "John Doe",
+    age: 21,
+    specialty: "JavaScript",
+  },
+  {
+    name: "Jane Smith",
+    age: 20,
+    specialty: "Python",
+  },
+  {
+    name: "Bob Johnson",
+    age: 35,
+    specialty: "Java",
+  },
+];
+
+// console.log(trainers.filter(t => {
+//     if(t.age > 25) {
+//         return t
+//     }
+// }));
+
+// const over25 = []
+// for (const trainer of trainers) {
+//     if(trainer.age > 25) {
+//         over25.push(trainer)
+//     }
+// }
+// console.log(over25);
+//
+// const names = ["salam", "kalam", "jamal"];
+
+// //#endregion
+// const add = (fn) => {
+//     return fn(10)
+// }
+// add((number = 3) => {
+//     console.log(2 + number);
+// })
+
+// names.forEach((name, _, arr) => console.log(arr) )
+
+
+// names.forEach(name => console.log(name))
