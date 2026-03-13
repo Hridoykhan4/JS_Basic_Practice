@@ -45,23 +45,32 @@
 // }
 
 // Array of objects for three trainers
-const trainers = [
-  {
-    name: "John Doe",
-    age: 21,
-    specialty: "JavaScript",
-  },
-  {
-    name: "Jane Smith",
-    age: 20,
-    specialty: "Python",
-  },
-  {
-    name: "Bob Johnson",
-    age: 35,
-    specialty: "Java",
-  },
-];
+// const trainers = [
+//   {
+//     name: "John Doe",
+//     age: 21,
+//     specialty: "JavaScript",
+//   },
+//   {
+//     name: "Jane Smith",
+//     age: 20,
+//     specialty: "Python",
+//   },
+//   {
+//     name: "Bob Johnson",
+//     age: 35,
+//     specialty: "Java",
+//   },
+// ];
+
+// const trainerNameOnly = trainers.reduce((arr, trainer, i) => {
+//      return {
+//         total: arr.total + trainer.age
+//      }
+// }, {total: 0})
+// console.log(trainerNameOnly);
+
+// console.log(trainers.map(t => t.name.substring(0, 9)));
 
 // console.log(trainers.filter(t => {
 //     if(t.age > 25) {
@@ -91,3 +100,9 @@ const trainers = [
 
 
 // names.forEach(name => console.log(name))
+
+
+// const arr = [2,5,6,1, 3];
+// const sum = arr.reduce((total, val) => total + val, 0);
+// console.log(sum);
+
