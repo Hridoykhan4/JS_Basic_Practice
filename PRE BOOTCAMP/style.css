@@ -1,0 +1,18 @@
+#todo-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+
+.card-style {
+    border: 2px solid;
+}
+
+@media screen and (max-width: 500px) {
+    #todo-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+}
