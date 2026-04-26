@@ -12,12 +12,17 @@
       }
     </style> -->
 </head>
-<body class="p-10 ">
-    <h2>Hello World</h2>
-    <div id="todo-container">
-
+<body class="p-10 space-y-6 ">
+    <h1 class="mb-5">My Todo's: <span id="total-todo">0</span> </h1>
+    <!-- <div class="py-4">
+      <button onclick="loadTodos()" class="bg-sky-600 text-white rounded-md p-4 cursor-pointer hover:bg-sky-400  focus:scale-110 ease-in-out duration-200">Get Todo's</button>
+    </div> -->
+    <input type="text" class="border 2px rounded" id="todo-field">
+    <br>
+    <button id="submitBtn" class="bg-sky-600 text-white rounded-md p-4 cursor-pointer hover:bg-sky-400  focus:scale-110 ease-in-out duration-200">Add Todo</button>
+    <button onclick="updateTodo()" class="bg-sky-600 text-white rounded-md p-4 cursor-pointer hover:bg-sky-400  focus:scale-110 ease-in-out duration-200">Update Todo</button>
+    <div id="todo-container" class="mb-6">
     </div>
-
     <script src="webAPI.js"></script>
 </body>
 </html>
