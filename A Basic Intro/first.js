@@ -7,5 +7,8 @@
      function
      Array Object
      Loop
+
+     Vibe Coding VS Real Coding
+     
 */
 
